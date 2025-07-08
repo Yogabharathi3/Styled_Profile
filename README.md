@@ -1,5 +1,5 @@
 # Styled_Profile_Card
-## Date:
+## Date:08.07.2025
 
 ## Objective:
 To practice HTML and CSS fundamentals by designing a visually appealing profile card that demonstrates the use of background color, typography, spacing, and layout alignment techniques.
@@ -31,8 +31,42 @@ Use flexbox or margin: auto to center the card vertically and horizontally on th
 Enhance interactivity with simple hover effects like border changes or background transition using CSS.
 
 ## HTML Code:
+```
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 20px;
+}
+h1, h2, h3 {
+    text-align: center;
+    color: black;
+}
+img {
+    display: block;
+    border-radius: 10px;
+    margin: 0 auto;
+    border: 3px solid grey;
+}
+section {
+    background-color:white;
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+}
+p {
+    line-height: 1.6;
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color:grey;
+    margin: 20px 0;
+}
+```
 
 ## Output:
+![image](https://github.com/user-attachments/assets/f08e5277-1b9c-4c0b-ba79-40bb9641d7fe)
 
 ## Result:
 A visually appealing profile card that demonstrates the use of background color, typography, spacing, and layout alignment techniques is designed.
